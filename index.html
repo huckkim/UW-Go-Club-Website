@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title> UW Go Club</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,600;1,100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"> -->
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/uwlogo.png"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">home</a></li>
+            <li><a href="">about Go</a></li>
+            <li><a href="">resources</a></li>
+            <li><a href="">connect</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Welcome to <br> University of Waterloo Go Club!</h1>
+        <p>A group of UW students who enjoy playing Go. All levels are welcomed; no experience is needed!</p>
+        <a href="" class="hero-btn">Get Started</a>
+      </div>
+    </section>
+<!-- About Go -->
+<section class="about">
+  <!-- <h1>About Go</h1>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p> -->
+  <div class="row">
+    <div class="about-col">
+      <h3>About UW Go Club</h3>
+      <p>Hi! My name is Melissa and I love to eat yummy food. I am currently
+        creating a website for University of Waterloo Go club. I had really good sushi
+        today that was so filling. I also caught a cold and should probably sleep soon.
+      </p>
+    </div>
+    <div class="about-col">
+      <h3>When/Where</h3>
+      <p>Hi! My name is Melissa and I love to eat yummy food. I am currently
+        creating a website for University of Waterloo Go club. I had really good sushi
+        today that was so filling. I also caught a cold and should probably sleep soon.
+      </p>
+    </div>
+    <div class="about-col">
+      <h3>Join Us</h3>
+      <p>Hi! My name is Melissa and I love to eat yummy food. I am currently
+        creating a website for University of Waterloo Go club. I had really good sushi
+        today that was so filling. I also caught a cold and should probably sleep soon.
+      </p>
+    </div>
+  </div>
+</section>
+<!-- ---- Campus ----- -->
+<section class="Conect">
+  <h1>Connect with Us!3</h1>
+  <p></p>
+</section>
+<!-- ------JavaScript for Toggle Menu------ -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html> 
